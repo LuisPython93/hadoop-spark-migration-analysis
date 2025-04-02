@@ -25,7 +25,9 @@ hdfs dfs -put /home/hadoop/rows.csv /Ruta_del_Proyecto
 
 Puedes ejecutar el análisis con el script tarea3_practica.py o editarlo si prefieres.
 
-Ejecuta el script con PySpark:
+Ejecuta el script con PySpark con el siguiente comando:
+
+exec(open("tarea3_practica.py").read())
 
 ¡Listo! Ya puedes analizar los datos en Apache Spark. 🚀🔥
 
