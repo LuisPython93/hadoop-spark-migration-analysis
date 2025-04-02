@@ -47,12 +47,12 @@ print("\n==========Valores máximos y mínimos de entradas==========\n" + "-"*40
 df_clean.agg(F.max("Total").alias("MAX_ENTRADAS"), F.min("Total").alias("MIN_ENTRADAS")).show()
 
 # Filtrar y mostrar registros donde el total de entradas sea mayor a 5000
-print("\n==========Días con más de 5000 entradas==========\n" + "-"*40)
+print("\n==========Meses con más de 5000 entradas por año==========\n" + "-"*40)
 dias_altos = df_clean.filter(F.col('Total') > 5000).select('Total', 'Año', 'Mes', 'Nacionalidad')
 dias_altos.show()
 
 # Ordenar por la cantidad de entradas en orden descendente
-print("\n==========Top 10 de días con más entradas==========\n" + "-"*40)
+print("\n==========Top 10 de meses con más entradas==========\n" + "-"*40)
 df_clean.orderBy(F.col("Total").desc()).show(10)
 
 # Entradas por nacionalidad
