@@ -8,7 +8,7 @@ Este proyecto incluye **scripts en Python** para el procesamiento de datos con *
 
 Para ejecutar el análisis, descarga el conjunto de datos desde el siguiente enlace:  
 
-➡️ **[Descargar dataset]([[https://www.datos.gov.co/Estad-sticas-Nacionales/Entrada-de-Venezolanos-a-Colombia-por-a-o-2012-201/p7hq-8vsm](https://www.datos.gov.co/api/views/96sh-4v8d/rows.csv?date=20250328&accessType=DOWNLOAD&bom=true&format=true)](https://www.datos.gov.co/Estad-sticas-Nacionales/Entrada-de-Venezolanos-a-Colombia-por-a-o-2012-201/p7hq-8vsm))**  
+➡️ **[Descargar dataset](https://www.datos.gov.co/Estad-sticas-Nacionales/Entrada-de-Venezolanos-a-Colombia-por-a-o-2012-201/p7hq-8vsm)**  
 
 Si deseas descargarlo directamente desde la terminal de **Linux**, usa el siguiente comando:  
 
